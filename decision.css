@@ -1,0 +1,132 @@
+body {
+    background-color: #f5f5f0;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 3.1em;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 5em;
+    color: #7a0019;
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    padding-bottom: 1.25em;
+    
+}
+
+#dice6 {
+    color: #ffcc33;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.5em;
+    position: relative;
+    left: 1000px;
+  
+}
+
+#dice6_result {
+    position: relative;
+    left: 1000px;
+}
+#dice_button {
+    background-color: #7a0019;
+    font-family: Atial;
+    color: white;
+    font-size: 1.25em;
+    border: 2px solid #ffcc33;
+    position: relative;
+    left: 1000px;
+}
+
+#coin {
+    color:#ffcc33;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.5em;
+    position: relative;
+    bottom: 180px;
+    margin-left: 20px;
+}
+
+#coin_result {
+    position: relative;
+    bottom: 180px;
+    margin-left: 20px;
+}
+
+#coin_button {
+    background-color: #7a0019;
+    font-family: Atial;
+    color: white;
+    font-size: 1.25em;
+    border: 2px solid #ffcc33;
+    position: relative;
+    bottom: 180px;
+    margin-left: 20px;
+}
+
+#selection {
+    color: #ffcc33;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1.1em;
+}
+
+#list_input {
+    position: relative;
+    left: 55%;
+    margin-left: -195px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#selection_result {
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+#choose_button{
+    background-color: #7a0019;
+    font-family: Atial;
+    color: white;
+    font-size: 1.25em;
+    border: 2px solid #ffcc33;
+    position: relative;
+    left: 45%;
+
+}
+
+#lotto{
+    margin-top: 1.7em;
+    color:#7a0019;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right: 30px;
+}
+
+#lotto_button{
+    background-color: #7a0019;
+    font-family: Atial;
+    color: white;
+    font-size: 1.25em;
+    border: 2px solid #ffcc33;
+    margin-top: 10px;
+    margin-bottom: 15px; 
+    margin-left: 45px;
+}
+
+#lotto_div{
+    position: relative;
+    left: 40%;
+}
+
+#lotto_form{
+    margin-left: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
