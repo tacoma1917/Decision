@@ -1,1 +1,37 @@
-# Decision
+<!DOCTYPE html>
+<html lang=em>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="decision.css">
+        <script src="decissionscript.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    </meta>
+    </head>
+    <title>Decision App</title>
+    <body>
+    <h1>Welcome to the decision app</h1>
+    <h2 id="dice6">Dice Roll</h2>
+    <h3 id="dice6_result">Ready to roll</h3>
+    <button id="dice_button" onclick="Roll()">Roll</button>
+    <h2 id="coin">Flip a coin</h2>
+    <h3 id="coin_result">Ready to flip</h3>
+    <button  id="coin_button" onclick="Flip()">Flip</button>
+    <h2 id="selection">Please enter a list of items</h2>
+    <input type="text" id="list_input" name="list_input"><br>
+    <button id="choose_button" onclick="Choose()">Choose</button>
+    <h3 id="selection_result">The selection has not yet been made</h3>
+        <div id="lotto_div">
+            <h2 id="lotto">Lotto Auto Pick</h2>
+            <h3 id="lotto_pick">Pick your numbers</h3>
+            <button id="lotto_button" onclick="Lotto()">Pick</button>
+            <form id="lotto_form">
+                <input type="radio" name="pick" id="pick_3" value="3"> Pick 3<br>
+                <input type="radio" name="pick" id="pick_4" value="4"> Pick 4<br>
+                <input type="radio" name="pick" id="pick_5" value="5"> Pick 5<br>
+        
+            </form>
+        </div>
+    </body>
+</html>
